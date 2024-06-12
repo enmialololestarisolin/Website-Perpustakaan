@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>modul 7.1 belajar php</title>
+        <title>CULCULATE TWO NUMBERS</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <h3>modul 7.2 menginput 2 bilangan</h3>
+        <script>
+            
+            function calc()
+            {
+                var n1 = parseFloat(document.getElementById('n1').value);
+                var n2 = parseFloat(document.getElementById('n2').value);
+                
+                var oper = document.getElementById('operators').value;
+                
+                if(oper === '+')
+                {
+                    document.getElementById('result').value = n1+n2;
+                }
+                
+                if(oper === '-')
+                {
+                    document.getElementById('result').value = n1-n2;
+                }
+                
+                if(oper === '/')
+                {
+                    document.getElementById('result').value = n1/n2;
+                }
+                
+                if(oper === 'X')
+                {
+                    document.getElementById('result').value = n1*n2;
+                }
+            }
+            
+        </script>
+        
+    </head>
+    <body>
+        
+        <input type="text" id="n1"/><br/><br/>
+        <input type="text" id="n2"/><br/><br/>
+        
+        <select id="operators">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="/">/</option>
+            <option value="X">X</option>
+        </select>
+        
+        <button onclick="calc();">=</button>
+        <input type="text" id="result"/>
+        
+    </body>
+</html>
+
+<body>
+    <h3>modul 7.1 belajar php</h3>
+    <ul>
+        <!--?php
+        For ($i = 1; $i <= 1000; $i++) {
+        "<li-->
+        "ini adalah hari ke ".1. "belajar php"
+        <li>
+            "ini adalah hari ke ".2. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".3. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".4. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".5. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".6. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".7. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".8. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".9. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".10. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".11. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".12. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".13. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".14. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".15. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".16. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".17. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".18. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".19. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".20. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".21. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".22. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".23. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".24. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".25. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".26. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".27. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".28. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".29. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".30. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".31. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".32. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".33. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".34. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".35. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".36. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".37. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".38. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".39. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".40. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".41. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".42. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".43. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".44. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".45. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".46. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".47. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".48. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".49. "belajar php"
+        </li>
+        <li>
+            "ini adalah hari ke".50. "belajar php"
+        </li>
+    </ul>
+</body>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>manajemen data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar-nav">
+        <H1>Modul 8</H1>
+        <h1>Manajemen data</h1>
+        <table id="data-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nama</th>
+                    <th>Kelas</th>
+                    <th>Umur</th>
+                    <th>Kota</th>
+                </tr>
+            </thead>
+        <tbody>
+            <!--data akan dimuat disini-->
+        </tbody>
+    </table>
+    <h1>Tambah/ Ubah Data</h1>
+    <form id="data-form">
+    <input type="hidden" id="id" name="id">
+    <label for="name">NAMA:</label>
+    <input type="text" id="name" name="name" required>
+    <br>
+    <br>
+    <label for="age">Umur:</label>
+    <input type="number" id="age" name="age" required>
+    <br>
+    <br>
+    <label for="City">kota:</label>
+    <input type="text" id="city" name="city" required>
+    <br>
+    <br>
+    <button type="submit">Simpan</button>
+    </form>
+    <script src="jquery.js"></script>
+
+    </div>
+</body>
